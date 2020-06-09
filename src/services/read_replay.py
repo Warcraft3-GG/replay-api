@@ -1,4 +1,4 @@
 import w3g
 
 def read_replay (file_path):
-  return 0
+  return w3g.File(file_path)
